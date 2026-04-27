@@ -135,7 +135,7 @@ We may update this EULA from time to time. Material changes will
 trigger a re-acceptance prompt the next time you launch the Software.
 Continued use after the prompt constitutes acceptance of the updated
 EULA. The most current version is always available at
-[github.com/nimbarkparam/seqtrix-releases/blob/master/legal/EULA.md](https://github.com/nimbarkparam/seqtrix-releases/blob/master/legal/EULA.md).
+[github.com/nimbarkparam/seqtrix-releases/blob/master/legal/EULA.md](https://github.com/nimbarkparam/seqtrix-releases/blob/main/legal/EULA.md).
 
 ## 11. Contact
 

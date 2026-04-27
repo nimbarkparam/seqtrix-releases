@@ -227,7 +227,7 @@ notify you and (where required) your data-protection authority within
 We may update this policy from time to time. Material changes will
 be announced inside the app (Settings → About → Updates) and on this
 page. The most current version is always available at
-[github.com/nimbarkparam/seqtrix-releases/blob/master/legal/PRIVACY.md](https://github.com/nimbarkparam/seqtrix-releases/blob/master/legal/PRIVACY.md).
+[github.com/nimbarkparam/seqtrix-releases/blob/master/legal/PRIVACY.md](https://github.com/nimbarkparam/seqtrix-releases/blob/main/legal/PRIVACY.md).
 
 ## 11. Contact
 

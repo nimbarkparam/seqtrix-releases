@@ -227,7 +227,7 @@ least 30 days before they take effect. Continued use of the Service
 after that period constitutes acceptance of the updated Terms.
 
 The most current version is always available at
-[github.com/nimbarkparam/seqtrix-releases/blob/master/legal/TERMS.md](https://github.com/nimbarkparam/seqtrix-releases/blob/master/legal/TERMS.md).
+[github.com/nimbarkparam/seqtrix-releases/blob/master/legal/TERMS.md](https://github.com/nimbarkparam/seqtrix-releases/blob/main/legal/TERMS.md).
 
 ## 15. Miscellaneous
 
