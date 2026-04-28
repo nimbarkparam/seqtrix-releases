@@ -3,13 +3,13 @@
 **Version:** 1.0
 **Effective date:** [DATE]
 **Applies to:** anyone with a Seqtrix account, including users of any
-free or paid plan, and anyone visiting the seqtrix.app website.
+free or paid plan, and anyone visiting the seqtrix.com website.
 
 ---
 
 These Terms of Service ("Terms") form a binding agreement between you
 and [Company Name] ("we", "us", "our"). By creating a Seqtrix
-account, by visiting the seqtrix.app website while signed in, or by
+account, by visiting the seqtrix.com website while signed in, or by
 using any feature that requires an account (such as cloud sync), you
 agree to these Terms.
 
@@ -39,7 +39,7 @@ You may not:
 
 ## 3. The service
 
-"Seqtrix" comprises the desktop application, the seqtrix.app website,
+"Seqtrix" comprises the desktop application, the seqtrix.com website,
 the auto-update channel, and any cloud features such as sync and
 backup.
 
@@ -77,7 +77,7 @@ rules, with or without notice depending on the severity.
 
 Seqtrix offers a **Free** plan and one or more **Paid** plans. The
 features and limits of each plan are listed at
-seqtrix.app/pricing and may change with advance notice.
+seqtrix.com/pricing and may change with advance notice.
 
 ### 5.2 Pricing
 

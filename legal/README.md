@@ -44,8 +44,8 @@ this draft, the placeholders are:
 
 - `[Company Name]` — legal entity name on file with Stripe
 - `[Company Registered Address]` — address on incorporation papers
-- `[Company Email]` — e.g. `support@seqtrix.app`
-- `[Privacy Email]` — can be the same; e.g. `privacy@seqtrix.app`
+- `[Company Email]` — e.g. `support@seqtrix.com`
+- `[Privacy Email]` — can be the same; e.g. `privacy@seqtrix.com`
 - `[Jurisdiction]` — e.g. "the State of Delaware, United States" or
   "the courts of Mumbai, India". Match your incorporation.
 - `[Subscription Price]` — fill in after pricing is locked in Phase 8

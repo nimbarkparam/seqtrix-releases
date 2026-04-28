@@ -3,7 +3,7 @@
 **Version:** 1.0
 **Effective date:** [DATE]
 **Applies to:** the Seqtrix desktop application AND any future website
-operated by [Company Name] at the seqtrix.app domain.
+operated by [Company Name] at the seqtrix.com domain.
 
 ---
 
