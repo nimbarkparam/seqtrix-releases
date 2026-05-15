@@ -28,7 +28,7 @@ specifically check:
 2. The **liability cap** is enforceable where your users live (some EU
    states cap how low you can cap; California has rules around
    consumer-software liability waivers).
-3. The **subscription terms** match Stripe's required disclosures
+3. The **subscription terms** match standard subscription disclosures (auto-renewal, cancellation rights, refund policy)
    (auto-renewal, cancellation rights, refund policy) — failure here
    is the #1 cause of chargebacks.
 4. The **privacy policy** lists every data field you actually collect
@@ -42,11 +42,11 @@ specifically check:
 Every `[…]` bracket in the three documents is a placeholder. As of
 this draft, the placeholders are:
 
-- `[Company Name]` — legal entity name on file with Stripe
-- `[Company Registered Address]` — address on incorporation papers
-- `[Company Email]` — e.g. `support@seqtrix.com`
-- `[Privacy Email]` — can be the same; e.g. `privacy@seqtrix.com`
-- `[Jurisdiction]` — e.g. "the State of Delaware, United States" or
+- `Seqtrix` — legal entity name on file with our payment processor
+- `` — address on incorporation papers
+- `help@seqtrix.com` — e.g. `support@seqtrix.com`
+- `help@seqtrix.com` — can be the same; e.g. `privacy@seqtrix.com`
+- `India (Mumbai, Maharashtra)` — e.g. "the State of Delaware, United States" or
   "the courts of Mumbai, India". Match your incorporation.
 - `[Subscription Price]` — fill in after pricing is locked in Phase 8
 - `[Free Trial Days]` — if you offer one (default suggestion: 14)

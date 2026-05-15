@@ -1,22 +1,21 @@
 # Seqtrix Privacy Policy
 
 **Version:** 1.0
-**Effective date:** [DATE]
+**Effective date:** 12 May 2026
 **Applies to:** the Seqtrix desktop application AND any future website
-operated by [Company Name] at the seqtrix.com domain.
+operated by Seqtrix at the seqtrix.com domain.
 
 ---
 
-We at [Company Name] ("we", "us", "our") respect your privacy. This
+We at Seqtrix ("we", "us", "our") respect your privacy. This
 policy explains what data Seqtrix collects, why, where it is stored,
 who it is shared with, and how to exercise your rights over it.
 
-If anything here is unclear, email us at [Privacy Email].
+If anything here is unclear, email us at help@seqtrix.com.
 
 ## 1. Who we are
 
-[Company Name]
-[Company Registered Address]
+Seqtrix
 
 We are the data controller for the personal data described in this
 policy.
@@ -48,7 +47,7 @@ When the app crashes we send a report containing:
   no commands, no typed text).
 - The crash stack trace.
 
-We use **Sentry** as our crash-reporting processor.
+We use our crash-reporting provider for crash reports.
 
 You can disable this in **Settings → Privacy → Send anonymous crash
 reports**.
@@ -70,7 +69,7 @@ We do NOT collect:
 - Hotkey chord values or watched file paths.
 - Any text the user has typed inside the app.
 
-We use **PostHog** as our analytics processor.
+We use our analytics provider for usage analytics.
 
 You can enable / disable this in **Settings → Privacy → Help improve
 Seqtrix**.
@@ -83,7 +82,7 @@ cloud sync and paid features):
 - Email address — used as your account identifier and for
   service-related email (e.g. password resets, important notices).
 - Authentication tokens — managed by our authentication provider
-  (**Supabase Auth**).
+  (our authentication provider).
 - Sign-in metadata — IP address (for fraud detection, retained 30
   days), device label, last-seen timestamp.
 
@@ -95,24 +94,22 @@ nothing more.
 
 Only when you turn on cloud sync, your sequences (names, action graphs,
 schedules) are encrypted in transit (TLS) and stored in our database
-hosted by **Supabase** (region: [Region — to be filled in when
-provisioned]).
+hosted by our database provider (region: asia-south-1 (Mumbai)).
 
 Encryption-at-rest is provided by the underlying database. End-to-end
 encryption is on the roadmap.
 
 ### Data we collect when you subscribe (Phase 8+)
 
-Payment processing is handled by **Stripe**. We never see or store your
-card number. From Stripe we receive:
+Payment processing is handled by our payment processor. We never see or store your
+card number. From our payment processor we receive:
 
-- Your Stripe customer ID, subscription status, and renewal date.
+- Your our customer ID with our payment processor, subscription status, and renewal date.
 - Country code (for tax purposes).
 - The last 4 digits of your card (for display in the billing
   dashboard).
 
-Stripe's own privacy policy applies to the data they hold:
-[stripe.com/privacy](https://stripe.com/privacy).
+Our payment processor's own privacy policy applies to the data they hold.
 
 ## 3. Why we use this data
 
@@ -123,7 +120,7 @@ Stripe's own privacy policy applies to the data they hold:
 | Improve the product | Usage analytics (opt-in) | Consent |
 | Operate your account | Email, auth tokens | Contract |
 | Sync your sequences | Sequence data (opt-in) | Contract |
-| Bill your subscription | Stripe metadata | Contract |
+| Bill your subscription | payment-processor metadata | Contract |
 | Detect fraud / abuse | Sign-in IPs (30 days) | Legitimate interest |
 | Send service emails | Email | Legitimate interest |
 
@@ -137,11 +134,11 @@ to operate the service:
 
 | Processor | What they get | Where they're located | Why |
 |---|---|---|---|
-| Sentry | Crash reports (opt-out) | EU (eu.sentry.io) | Crash diagnostics |
-| PostHog | Anonymous usage events (opt-in) | EU (eu.posthog.com) | Product analytics |
-| Supabase | Account + cloud-synced sequences | [Region — TBD] | Auth + database |
-| Stripe | Customer ID, subscription state | Global | Payment processing |
-| GitHub | App update fetches (anonymous) | Global | Auto-update distribution |
+| Crash-reporting provider | Crash reports (opt-out) | EU (eu.sentry.io) | Crash diagnostics |
+| Analytics provider | Anonymous usage events (opt-in) | EU (eu.posthog.com) | Product analytics |
+| Auth + database provider | Account + cloud-synced sequences | asia-south-1 (Mumbai) | Auth + database |
+| our payment processor | Customer ID, subscription state | Global | Payment processing |
+| Update distribution provider | App update fetches (anonymous) | Global | Auto-update distribution |
 
 We will not share your data with any other third party without your
 consent, except where required by law (e.g. valid court order).
@@ -151,7 +148,7 @@ consent, except where required by law (e.g. valid court order).
 Local app data: on your computer at
 `%APPDATA%\app.seqtrix.desktop\`.
 
-Cloud-synced data: in the Supabase region [Region — TBD] (set
+Cloud-synced data: in the database provider region asia-south-1 (Mumbai) (set
 before Phase 7 ships).
 
 We do not transfer data to countries outside the storing region
@@ -168,19 +165,19 @@ where required).
 | Account data | As long as your account exists + 30 days after deletion |
 | Sign-in IP addresses | 30 days |
 | Cloud-synced sequences | Until you delete them or close the account |
-| Stripe billing records | As required by tax / accounting law (typically 7 years) |
+| payment-processor billing records | As required by tax / accounting law (typically 7 years) |
 
 ## 7. Your rights
 
 If you have a Seqtrix account, you can at any time:
 
 - **Access** the data we hold about you — Settings → Privacy → Export
-  my data, or email [Privacy Email].
+  my data, or email help@seqtrix.com.
 - **Correct** inaccurate data — Settings → Account, or email us.
 - **Delete** your account and all associated data — Settings →
   Account → Delete account. All cloud data is removed within 30 days;
-  Stripe billing records may be retained for legal compliance.
-- **Restrict or object** to processing — email [Privacy Email].
+  payment-processor billing records may be retained for legal compliance.
+- **Restrict or object** to processing — email help@seqtrix.com.
 - **Port** your data to another service — Settings → Privacy → Export
   my data produces a JSON file you can import elsewhere.
 - **Withdraw consent** for analytics or crash reports — toggle them
@@ -207,7 +204,7 @@ Protection Act 2023 apply.
 
 Seqtrix is not directed at children under 13 (or under 16 in the EU).
 We do not knowingly collect data from children. If you believe a
-child has provided us data, email [Privacy Email] and we will delete
+child has provided us data, email help@seqtrix.com and we will delete
 it.
 
 ## 9. Security
@@ -216,7 +213,7 @@ We use industry-standard measures to protect your data, including
 encryption in transit (TLS), encryption at rest where supported by
 the underlying provider, and least-privilege access controls. No
 system is perfectly secure, however; if you suspect a breach of your
-account, email [Privacy Email] immediately.
+account, email help@seqtrix.com immediately.
 
 If we discover a security incident affecting your data, we will
 notify you and (where required) your data-protection authority within
@@ -232,7 +229,6 @@ page. The most current version is always available at
 ## 11. Contact
 
 Privacy questions, data-rights requests, or complaints:
-[Privacy Email]
+help@seqtrix.com
 
-[Company Name]
-[Company Registered Address]
+Seqtrix

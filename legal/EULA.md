@@ -1,7 +1,7 @@
 # Seqtrix End User License Agreement
 
-**Version:** 1.0
-**Effective date:** [DATE]
+**Version:** 1.1
+**Effective date:** 12 May 2026
 **Applies to:** the Seqtrix desktop application for Microsoft Windows.
 
 ---
@@ -13,7 +13,7 @@ use the Software.
 
 ## 1. License grant
 
-[Company Name] ("we", "us", "our") grants you a limited, non-exclusive,
+Seqtrix ("we", "us", "our") grants you a limited, non-exclusive,
 non-transferable, revocable license to install and use one copy of the
 Software on each personal computer or device that you own or control,
 solely for your personal or internal business use, subject to the
@@ -90,7 +90,7 @@ so some of the above exclusions may not apply to you.
 ## 7. Limitation of liability
 
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL
-[Company Name] BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+Seqtrix BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
 CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, REVENUES,
 DATA, OR USE, ARISING OUT OF OR RELATED TO YOUR USE OF THE SOFTWARE,
 WHETHER IN CONTRACT, TORT, OR ANY OTHER LEGAL THEORY, EVEN IF WE HAVE
@@ -119,10 +119,10 @@ Sections 4 (Ownership), 6 (Disclaimer), 7 (Liability), and 9
 
 ## 9. Governing law
 
-This EULA is governed by the laws of [Jurisdiction], without regard
+This EULA is governed by the laws of India (Mumbai, Maharashtra), without regard
 to its conflict-of-laws principles. Any dispute arising out of or
 relating to this EULA will be brought exclusively in the courts of
-[Jurisdiction], and you consent to the personal jurisdiction of those
+India (Mumbai, Maharashtra), and you consent to the personal jurisdiction of those
 courts.
 
 If you are a consumer in the European Union, you may also bring
@@ -139,7 +139,6 @@ EULA. The most current version is always available at
 
 ## 11. Contact
 
-Questions about this EULA: [Company Email]
+Questions about this EULA: help@seqtrix.com
 
-[Company Name]
-[Company Registered Address]
+Seqtrix

@@ -1,14 +1,14 @@
 # Seqtrix Terms of Service
 
 **Version:** 1.0
-**Effective date:** [DATE]
+**Effective date:** 12 May 2026
 **Applies to:** anyone with a Seqtrix account, including users of any
 free or paid plan, and anyone visiting the seqtrix.com website.
 
 ---
 
 These Terms of Service ("Terms") form a binding agreement between you
-and [Company Name] ("we", "us", "our"). By creating a Seqtrix
+and Seqtrix ("we", "us", "our"). By creating a Seqtrix
 account, by visiting the seqtrix.com website while signed in, or by
 using any feature that requires an account (such as cloud sync), you
 agree to these Terms.
@@ -27,7 +27,7 @@ you provide is accurate.
 ## 2. Your account
 
 You are responsible for keeping your account credentials secure. You
-must notify us promptly at [Company Email] if you suspect
+must notify us promptly at help@seqtrix.com if you suspect
 unauthorised access to your account.
 
 You may not:
@@ -89,40 +89,56 @@ price increase that affects your subscription.
 
 Paid subscriptions auto-renew at the end of each billing period
 (monthly or annual) at the then-current price, until cancelled. By
-subscribing, you authorise us (via Stripe) to charge your selected
+subscribing, you authorise us to charge your selected
 payment method for each renewal.
 
 ### 5.4 Cancellation
 
-You may cancel at any time from Settings → Account → Manage
-Subscription, which opens the Stripe Customer Portal. Cancellation
-takes effect at the end of your current billing period; you retain
-paid features until then. We do not pro-rate refunds for partial
-periods.
+You may cancel your subscription at any time from
+seqtrix.com/account/billing by clicking *Cancel at period end*.
+Cancellation stops future renewals only. You retain full access to
+paid features through the end of the cycle you have already paid
+for. After that date your account automatically reverts to the free
+Starter tier and no further charges are made.
 
-### 5.5 Refunds
+### 5.5 No refunds
 
-We offer a refund within 14 days of your first paid subscription on a
-given account, no questions asked. Email [Company Email] within 14
-days of charge.
+Every install of Seqtrix begins with a **free 15-day Advanced trial**
+with no payment, no card required, and no obligation to subscribe.
+That trial gives you a full opportunity to evaluate paid features
+before committing. Because of this, paid subscriptions to Seqtrix are
+**non-refundable**. Once a charge is made for a billing cycle, it
+cannot be refunded — whether that is your first payment or a
+subsequent renewal. By starting a paid subscription you confirm that
+you have had a full opportunity to evaluate the paid features during
+the free trial and you accept this no-refund policy.
 
-After 14 days, refunds are at our discretion and typically only
-granted for service outages or billing errors.
+To stop being charged in the future, cancel your subscription before
+the next renewal date (see §5.4 above).
 
-If you are a consumer in the European Union, you have a statutory
-14-day right of withdrawal which we honour irrespective of the above.
+The no-refund policy does not apply to a verified, sustained
+Seqtrix-side outage. If a paid feature is materially unavailable due
+to a service failure exceeding 48 continuous hours within a single
+billing cycle, contact help@seqtrix.com and we will issue a pro-rated
+credit or refund for the affected portion of the cycle.
+
+Full details on the
+[Refund & Cancellation Policy](https://seqtrix.com/refund-policy)
+page.
 
 ### 5.6 Trials
 
-If we offer a free trial, you will not be charged until the trial
-period ends, at which point your subscription begins automatically
-unless you cancel before the trial expires. We will email you a
-reminder at least 3 days before the trial ends.
+Every fresh install of Seqtrix includes a free 15-day Advanced trial,
+device-anchored and requiring no payment method. You will never be
+charged automatically at the end of a trial — paid subscriptions
+begin only when you explicitly subscribe through
+seqtrix.com/pricing. Re-installing Seqtrix on the same device does
+not reset the trial; it is anchored to the device fingerprint.
 
 ### 5.7 Taxes
 
 Subscription prices are exclusive of any applicable taxes (VAT, GST,
-sales tax). Stripe collects taxes on our behalf where required.
+sales tax). Our payment processor collects taxes on our behalf where required.
 
 ## 6. Intellectual property
 
@@ -145,8 +161,7 @@ when you delete the content or your account.
 
 ## 7. Third-party services
 
-Seqtrix integrates with third-party services (Stripe for billing,
-Supabase for hosting, Sentry for crash reports). Your use of those
+Seqtrix integrates with third-party services (a payment processor, a hosting + database provider, and a crash-reporting provider). Your use of those
 services is governed by their own terms; we are not responsible for
 them.
 
@@ -209,10 +224,10 @@ there.
 
 ## 13. Governing law and disputes
 
-These Terms are governed by the laws of [Jurisdiction], without
+These Terms are governed by the laws of India (Mumbai, Maharashtra), without
 regard to its conflict-of-laws principles. Any dispute arising out
 of or relating to these Terms or the Service will be brought
-exclusively in the courts of [Jurisdiction], and you consent to the
+exclusively in the courts of India (Mumbai, Maharashtra), and you consent to the
 personal jurisdiction of those courts.
 
 If you are a consumer in the European Union, you may also bring
@@ -245,7 +260,6 @@ The most current version is always available at
 ## 16. Contact
 
 Questions about these Terms, or notices required under them:
-[Company Email]
+help@seqtrix.com
 
-[Company Name]
-[Company Registered Address]
+Seqtrix
