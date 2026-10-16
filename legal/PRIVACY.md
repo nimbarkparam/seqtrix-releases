@@ -1,7 +1,7 @@
 # Seqtrix Privacy Policy
 
-**Version:** 1.0
-**Effective date:** 12 May 2026
+**Version:** 1.1
+**Effective date:** 13 October 2026
 **Applies to:** the Seqtrix desktop application AND any future website
 operated by Seqtrix at the seqtrix.com domain.
 
@@ -38,9 +38,13 @@ This data lives in `%APPDATA%\app.seqtrix.desktop\` on Windows.
 
 ### Data Seqtrix collects only with your active opt-in
 
-#### Crash reports (default: ON, opt-out)
+No telemetry by default. Crash reports and anonymous usage stats are
+off until you turn them on in Settings > Privacy.
 
-When the app crashes we send a report containing:
+#### Crash reports (default: OFF, opt-in)
+
+If you have turned crash reports on and the app crashes, we send a
+report containing:
 - App version, OS version, processor architecture.
 - The action type that was executing when the crash occurred (e.g.
   "OpenApplication"), but **NOT** the action's properties (no paths,
@@ -49,8 +53,8 @@ When the app crashes we send a report containing:
 
 We use our crash-reporting provider for crash reports.
 
-You can disable this in **Settings → Privacy → Send anonymous crash
-reports**.
+It is off until you turn it on. You can turn it on or off at any time
+in **Settings → Privacy → Send anonymous crash reports**.
 
 #### Anonymous usage analytics (default: OFF, opt-in)
 
@@ -116,7 +120,7 @@ Our payment processor's own privacy policy applies to the data they hold.
 | Purpose | Data used | Lawful basis (GDPR) |
 |---|---|---|
 | Run the app | Local data only | N/A — never leaves device |
-| Diagnose crashes | Crash reports (opt-out) | Legitimate interest |
+| Diagnose crashes | Crash reports (opt-in) | Consent |
 | Improve the product | Usage analytics (opt-in) | Consent |
 | Operate your account | Email, auth tokens | Contract |
 | Sync your sequences | Sequence data (opt-in) | Contract |
@@ -134,7 +138,7 @@ to operate the service:
 
 | Processor | What they get | Where they're located | Why |
 |---|---|---|---|
-| Crash-reporting provider | Crash reports (opt-out) | EU (eu.sentry.io) | Crash diagnostics |
+| Crash-reporting provider | Crash reports (opt-in) | EU (eu.sentry.io) | Crash diagnostics |
 | Analytics provider | Anonymous usage events (opt-in) | EU (eu.posthog.com) | Product analytics |
 | Auth + database provider | Account + cloud-synced sequences | asia-south-1 (Mumbai) | Auth + database |
 | our payment processor | Customer ID, subscription state | Global | Payment processing |
