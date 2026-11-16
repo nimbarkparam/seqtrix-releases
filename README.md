@@ -31,7 +31,8 @@ updates):
 
 **https://apps.microsoft.com/detail/9P5JT0BXFPS9**
 
-**Direct installer** (same app, code-signed, with a built-in auto-updater):
+**Direct installer** (same app, not code-signed yet, so Windows may show a SmartScreen
+warning; with a built-in auto-updater):
 
 **https://seqtrix.com/download**
 
@@ -55,18 +56,26 @@ There are **9 action types**:
 | **Media Control** | Play/pause, next, previous, volume |
 | **Security Lock** | AES-256 encrypt, hide, password-lock, or securely delete a file or folder |
 
-**80 built-in templates** ship with the app, so the first useful automation is about ten
-seconds away rather than an afternoon of reading docs. There is also a curated library of
-50+ ready-made commands for the Run Command action.
+Focus Lock blocks distracting apps and websites for 15 minutes to 8 hours, with Soft,
+Firm or Hard strength. Soft is free; Firm, Hard and website blocking are on Advanced and
+Pro.
 
-**Triggers:** hotkey, schedule, file watcher (create / modify / delete), system events
-(login, idle, return-from-idle), or the Mini Mode floating launcher - an always-on-top
-ring with 8 slots that sits over any window.
+Describe (AI) builds a sequence from a plain-English description. It is optional, a
+one-time download of about 2 GB, and runs on the CPU with no graphics card. Voice
+control: push-to-talk on every plan, hands-free on Advanced and Pro.
+
+**85 built-in templates** ship with the app, 15 of them on the free plan, so the first
+useful automation is about ten seconds away rather than an afternoon of reading docs.
+There is also a curated library of 50+ ready-made commands for the Run Command action.
+
+**Triggers:** hotkey, schedule, an app launching, file watcher (create / modify /
+delete), system events (login, idle, return-from-idle), or the Mini Mode floating
+launcher - an always-on-top ring with 8 slots that sits over any window.
 
 **Honest limitation, stated up front:** sequences run **strictly linearly**. There is no
-branching, no loops, no conditionals, no retries, and no parallel paths. If your workflow
-needs real control flow, AutoHotkey or PowerShell is the better tool, and we would rather
-tell you that here than have you find out after installing.
+branching to other steps, no loops and no parallel paths: a sequence runs its steps in
+order. If your workflow needs real control flow, AutoHotkey or PowerShell is the better
+tool, and we would rather tell you that here than have you find out after installing.
 
 ---
 
@@ -74,7 +83,9 @@ tell you that here than have you find out after installing.
 
 Sequences run on your machine. There is no cloud execution, no telemetry by default, and
 the app works with no internet connection. Optional account sign-in exists for licensing
-and cross-device sync of your sequences; that is the only thing that talks to a server.
+and cross-device sync of your sequences. To check your plan, the app also sends a hashed
+device ID, plus your sign-in if you are signed in, at launch and about every 30 minutes,
+and the direct installer's built-in updater checks this repository for new versions.
 
 ---
 
@@ -87,15 +98,16 @@ and cross-device sync of your sequences; that is the only thing that talks to a 
 
 ## Pricing
 
-**Starter** is free forever. **Advanced** is $7.99/month or $79/year (₹299 / ₹2,990) and
-covers up to 50 sequences. **Pro** is $14.99/month or $149/year (₹599 / ₹5,990) with
-unlimited sequences.
+**Starter** is free forever. **Advanced** is $4.99 for 30 days or $49 for a year (₹299 /
+₹2,990) and covers up to 50 sequences. **Pro** is $9.99 for 30 days or $99 for a year
+(₹599 / ₹5,990) with unlimited sequences.
 
 Every fresh install gets a **15-day Advanced trial** - no credit card, no signup.
 
 **One-time payment for the period you choose.** Nothing auto-renews and there is nothing
-to cancel: when the period ends, access simply reverts to Starter unless you buy again.
-One payment covers 30 or 365 days - it is not a lifetime licence.
+to cancel: when a pass ends, it keeps running for 3 days of grace, then returns to
+Starter unless you buy again; nothing is deleted. One payment covers 30 or 365 days - it
+is not a lifetime licence.
 
 Full breakdown: [seqtrix.com/pricing](https://seqtrix.com/pricing)
 
@@ -103,9 +115,10 @@ Full breakdown: [seqtrix.com/pricing](https://seqtrix.com/pricing)
 
 ## About this repository
 
-This repo is the **public release mirror**. It exists so the auto-updater in every
-installed copy of Seqtrix can fetch its manifest anonymously, and so the installer has a
-stable public download URL. The application source is private.
+This repo is the **public release mirror**. It exists so the auto-updater in every copy
+installed from seqtrix.com can fetch its manifest, and so the installer has a stable
+public download URL. The Microsoft Store version updates through the Store. The
+application source is private.
 
 Each tagged release publishes:
 
@@ -117,12 +130,15 @@ Each tagged release publishes:
 | `latest.json` | Updater manifest pointing at this repo's release assets |
 
 Releases are cut by CI on every version tag: a Windows runner builds and signs the
-bundle, generates `latest.json`, and publishes here. Nobody commits to this repo by hand.
+bundle, generates `latest.json`, and publishes here. Nobody uploads release files by
+hand.
 
-The [`legal/`](./legal/) folder mirrors the EULA, privacy policy, terms, and refund
-policy that the app and website link to.
+The [`legal/`](./legal/) folder holds copies of the EULA, privacy policy and terms. The
+current versions, and the refund policy, are on seqtrix.com: https://seqtrix.com/eula,
+https://seqtrix.com/privacy, https://seqtrix.com/terms and
+https://seqtrix.com/refund-policy.
 
-**Support and bug reports:** support@seqtrix.com
+**Support and bug reports:** help@seqtrix.com
 
 ---
 
