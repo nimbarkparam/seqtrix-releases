@@ -1,28 +1,32 @@
 # Seqtrix Terms of Service
 
-**Version:** 1.0
-**Effective date:** 12 May 2026
-**Applies to:** anyone with a Seqtrix account, including users of any
-free or paid plan, and anyone visiting the seqtrix.com website.
+**Version:** 1.1
+**Effective date:** 13 November 2026
+**Applies to:** the Seqtrix desktop application for Microsoft
+Windows, the seqtrix.com website and everything sold through it.
 
 ---
 
 These Terms of Service ("Terms") form a binding agreement between you
-and Seqtrix ("we", "us", "our"). By creating a Seqtrix
-account, by visiting the seqtrix.com website while signed in, or by
-using any feature that requires an account (such as cloud sync), you
-agree to these Terms.
+and Seqtrix ("we", "us", "our"). By installing or using the app,
+creating an account, or buying anything from us, you agree to these
+Terms, our [Privacy Policy](./PRIVACY.md), our
+[Refund and Cancellation Policy](https://seqtrix.com/refund-policy)
+and our
+[Shipping and Delivery Policy](https://seqtrix.com/shipping-policy).
+If you do not agree, do not use Seqtrix.
 
-If you only use the desktop app locally without an account, the
-[End User License Agreement](./EULA.md) governs your use of the
-software, and these Terms do not apply to you.
+The [End User License Agreement](./EULA.md) is the licence for the
+desktop app itself. If the EULA and these Terms conflict about the
+software itself, the EULA wins; about payments and your account,
+these Terms win.
 
 ## 1. Eligibility
 
-You must be at least 13 years old (16 if you reside in the European
-Economic Area) to create a Seqtrix account. By signing up you confirm
-you meet this age requirement and that the registration information
-you provide is accurate.
+You must be 18 or older to use Seqtrix, create an account or buy
+anything from us. By signing up you confirm you meet this age
+requirement and that the registration information you provide is
+accurate.
 
 ## 2. Your account
 
@@ -43,9 +47,9 @@ You may not:
 the auto-update channel, and any cloud features such as sync and
 backup.
 
-We may add, modify, or remove features at any time. We will give
-reasonable notice (in-app or by email) of changes that would
-materially reduce paid features you actively use.
+We may add, modify, or remove features at any time. Which features
+belong to which tier can change for future purchases, never for a
+pass you have already paid for.
 
 ## 4. Acceptable use
 
@@ -71,56 +75,51 @@ You agree NOT to use Seqtrix to:
 We may suspend or terminate accounts we believe are violating these
 rules, with or without notice depending on the severity.
 
-## 5. Subscriptions and billing
+## 5. Plans, passes and billing
 
 ### 5.1 Plans
 
-Seqtrix offers a **Free** plan and one or more **Paid** plans. The
-features and limits of each plan are listed at
-seqtrix.com/pricing and may change with advance notice.
+Seqtrix has a free **Starter** tier and two paid tiers, **Advanced**
+and **Pro**. The features and limits of each tier are listed at
+seqtrix.com/pricing. They can change for future purchases, never for
+a pass you have already paid for.
 
 ### 5.2 Pricing
 
-Paid plans are priced as displayed at the time of subscription.
-Prices may change; you will receive at least 30 days' notice of any
-price increase that affects your subscription.
+Paid tiers are sold as fixed-term passes, priced as displayed at the
+time of purchase. A price change applies to purchases after the
+change, never to a pass you have already paid for.
 
-### 5.3 Auto-renewal
+### 5.3 No auto-renewal
 
-Paid subscriptions auto-renew at the end of each billing period
-(monthly or annual) at the then-current price, until cancelled. By
-subscribing, you authorise us to charge your selected
-payment method for each renewal.
+A pass is one payment for a fixed term: 30 days or 365 days. It does
+not renew by itself, no card is kept on file and there is nothing to
+cancel. Buy again when it ends.
+
+Auto-renew is not offered today. If we offer it, it will be a
+separate, unticked choice at checkout, with the amount and interval
+shown before you agree, an email before each charge and the option to
+cancel at any time.
 
 ### 5.4 Cancellation
 
-You may cancel your subscription at any time from
-seqtrix.com/account/billing by clicking *Cancel at period end*.
-Cancellation stops future renewals only. You retain full access to
-paid features through the end of the cycle you have already paid
-for. After that date your account automatically reverts to the free
-Starter tier and no further charges are made.
+A pass has nothing to cancel. It ends on its own when its days are
+used up, and nothing is charged again. The app keeps running for a
+short grace period and then returns to the Starter limits. Nothing
+you made is deleted.
 
-### 5.5 No refunds
+### 5.5 Refunds
 
 Every install of Seqtrix begins with a **free 15-day Advanced trial**
-with no payment, no card required, and no obligation to subscribe.
-That trial gives you a full opportunity to evaluate paid features
-before committing. Because of this, paid subscriptions to Seqtrix are
-**non-refundable**. Once a charge is made for a billing cycle, it
-cannot be refunded — whether that is your first payment or a
-subsequent renewal. By starting a paid subscription you confirm that
-you have had a full opportunity to evaluate the paid features during
-the free trial and you accept this no-refund policy.
+with no payment, no card required, and no obligation to buy. That
+trial gives you a full opportunity to evaluate paid features before
+you pay.
 
-To stop being charged in the future, cancel your subscription before
-the next renewal date (see §5.4 above).
-
-The no-refund policy does not apply to a verified, sustained
-Seqtrix-side outage. If a paid feature is materially unavailable due
-to a service failure exceeding 48 continuous hours within a single
-billing cycle, contact help@seqtrix.com and we will issue a pro-rated
-credit or refund for the affected portion of the cycle.
+You can get a full refund of a pass within 7 days of purchase, as
+long as the pass has not been activated in the app. After activation,
+a pass is refunded only for a verified defect we cannot fix within 7
+days of your report, or a Seqtrix-side outage of more than 48
+continuous hours. To ask for a refund, email help@seqtrix.com.
 
 Full details on the
 [Refund & Cancellation Policy](https://seqtrix.com/refund-policy)
@@ -130,15 +129,14 @@ page.
 
 Every fresh install of Seqtrix includes a free 15-day Advanced trial,
 device-anchored and requiring no payment method. You will never be
-charged automatically at the end of a trial — paid subscriptions
-begin only when you explicitly subscribe through
-seqtrix.com/pricing. Re-installing Seqtrix on the same device does
-not reset the trial; it is anchored to the device fingerprint.
+charged automatically at the end of a trial - a paid pass starts
+only when you buy one through seqtrix.com/pricing. Re-installing
+Seqtrix on the same device does not reset the trial; it is anchored
+to the device fingerprint.
 
 ### 5.7 Taxes
 
-Subscription prices are exclusive of any applicable taxes (VAT, GST,
-sales tax). Our payment processor collects taxes on our behalf where required.
+If a tax must be added for your country, it is shown before you pay.
 
 ## 6. Intellectual property
 
@@ -184,10 +182,9 @@ TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:
    CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS,
    REVENUES, OR DATA, ARISING OUT OF OR RELATED TO THESE TERMS OR
    THE SERVICE.
-2. OUR TOTAL CUMULATIVE LIABILITY ARISING OUT OF OR RELATED TO
-   THESE TERMS WILL NOT EXCEED THE GREATER OF (a) THE AMOUNT YOU
-   PAID US IN THE TWELVE MONTHS PRECEDING THE EVENT GIVING RISE
-   TO THE CLAIM, OR (b) US $50.
+2. OUR TOTAL LIABILITY FOR ALL CLAIMS RELATING TO THE SERVICE IS
+   CAPPED AT THE AMOUNT YOU PAID US IN THE 12 MONTHS BEFORE THE
+   CLAIM.
 
 This applies regardless of the legal theory (contract, tort, or
 otherwise), even if we have been advised of the possibility of
@@ -206,8 +203,8 @@ of the Service, or your violation of any law or third-party right.
 
 ## 11. Termination
 
-You may terminate your account at any time from Settings → Account →
-Delete account.
+You can stop using Seqtrix at any time and ask us to delete your
+account by emailing help@seqtrix.com.
 
 We may terminate or suspend your account at any time with or without
 notice if you breach these Terms or if continuing your access poses
@@ -224,11 +221,11 @@ there.
 
 ## 13. Governing law and disputes
 
-These Terms are governed by the laws of India (Mumbai, Maharashtra), without
-regard to its conflict-of-laws principles. Any dispute arising out
-of or relating to these Terms or the Service will be brought
-exclusively in the courts of India (Mumbai, Maharashtra), and you consent to the
-personal jurisdiction of those courts.
+These Terms are governed by the laws of India, without regard to its
+conflict-of-laws principles. Before any formal step, both sides will
+try to settle a dispute in good faith by email for 30 days. Any
+dispute that remains is subject to the exclusive jurisdiction of the
+courts at Ahmedabad, Gujarat, India.
 
 If you are a consumer in the European Union, you may also bring
 disputes before the courts of your country of residence under EU
@@ -236,13 +233,15 @@ consumer-protection law.
 
 ## 14. Changes to these Terms
 
-We may update these Terms from time to time. Material changes will
-be announced inside the app and by email to your account address at
-least 30 days before they take effect. Continued use of the Service
-after that period constitutes acceptance of the updated Terms.
+We may update these Terms from time to time. For a material change we
+give registered users at least 30 days' notice by email and update
+the date at the top. A change never shortens a pass you have already
+paid for. Using the Service after the change takes effect means you
+accept it.
 
-The most current version is always available at
-[github.com/nimbarkparam/seqtrix-releases/blob/master/legal/TERMS.md](https://github.com/nimbarkparam/seqtrix-releases/blob/main/legal/TERMS.md).
+The full terms are at
+[seqtrix.com/terms](https://seqtrix.com/terms), the page the app
+links to.
 
 ## 15. Miscellaneous
 
@@ -253,9 +252,10 @@ The most current version is always available at
 - **Assignment:** you may not assign these Terms without our written
   consent. We may assign these Terms in connection with a merger,
   acquisition, or sale of assets.
-- **Entire agreement:** these Terms, together with the EULA and the
-  Privacy Policy, constitute the entire agreement between you and us
-  regarding the Service.
+- **Entire agreement:** these Terms, together with the EULA, the
+  Privacy Policy, the Refund and Cancellation Policy and the Shipping
+  and Delivery Policy, constitute the entire agreement between you
+  and us regarding the Service.
 
 ## 16. Contact
 

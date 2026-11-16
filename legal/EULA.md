@@ -1,144 +1,121 @@
-# Seqtrix End User License Agreement
+# End User License Agreement
 
-**Version:** 1.1
-**Effective date:** 12 May 2026
-**Applies to:** the Seqtrix desktop application for Microsoft Windows.
+Version 2.0. Last updated 2026-11-05 (5 November 2026); Seqtrix 0.16.0 shows this version as dated 2026-10-13. Applies to the Seqtrix desktop application for Microsoft Windows.
 
----
+## 1. Who we are and what you are agreeing to
 
-By installing, copying, or otherwise using Seqtrix ("the Software"),
-you ("the User") agree to be bound by the terms of this End User
-License Agreement ("EULA"). If you do not agree, do not install or
-use the Software.
+Seqtrix is made and sold by Param Nimbark, a solo founder in Ahmedabad, India (“we”, “us”). This agreement (the “EULA”) is between you and us for the Seqtrix desktop application for Windows, including its templates, updates and documentation (the “Software”).
 
-## 1. License grant
+By ticking the acceptance box in the app, or by installing or using the Software, you agree to this EULA. If you do not agree, do not install or use the Software. You must be 18 or older.
 
-Seqtrix ("we", "us", "our") grants you a limited, non-exclusive,
-non-transferable, revocable license to install and use one copy of the
-Software on each personal computer or device that you own or control,
-solely for your personal or internal business use, subject to the
-terms below.
+Your account, passes, payments, refunds, the share gallery and the use of seqtrix.com are governed by the [Terms of Service](https://seqtrix.com/terms). What leaves your PC and when is described in the [Privacy Policy](https://seqtrix.com/privacy). Refunds follow the [Refund and Cancellation Policy](https://seqtrix.com/refund-policy). If this EULA and the Terms of Service conflict about the Software itself, this EULA wins; about payments and your account, the Terms of Service win.
 
-If you have an active paid subscription, additional grants apply per
-the Terms of Service ([TERMS.md](./TERMS.md)).
+## 2. Your licence
 
-## 2. Restrictions
+We grant you a limited, non-exclusive, non-transferable, revocable licence to install and use the Software on computers that you own or control, for your personal use or the internal use of your business. The Software is licensed, not sold.
 
-You may not, and may not permit others to:
+The free Starter tier needs no account and no payment. Paid features (Advanced and Pro) unlock for the term of a pass you buy, or under a Pro Lifetime licence if we offer one (section 4). A pass or licence is tied to the account you bought it with. It may be used on more than one computer that you own or control, as long as the account signs in on each one; it may not be shared with other people.
 
-1. Copy, modify, adapt, translate, or create derivative works of the
-   Software, except as expressly permitted by applicable law that
-   cannot be contractually waived.
-2. Reverse-engineer, decompile, or disassemble the Software, except
-   to the minimum extent permitted by applicable law (e.g. for
-   interoperability where required by EU Directive 2009/24/EC).
-3. Remove or alter any proprietary notices, labels, or marks on the
-   Software.
-4. Sublicense, rent, lease, lend, sell, or distribute the Software or
-   any portion of it.
-5. Use the Software to engage in any activity that is illegal in your
-   jurisdiction, including (but not limited to) unauthorised access
-   to other people's systems, distribution of malware, or
-   circumvention of access controls on third-party services.
-6. Use the Software to operate critical-life-safety, real-time
-   medical, aviation, nuclear, or other systems in which failure
-   could result in death, personal injury, or environmental damage.
+Templates are part of the Software. Which templates you can use depends on your tier. You may change any unlocked template for your own use.
 
-## 3. Updates
+## 3. Tiers, the licence check and what happens when a pass ends
 
-The Software includes an automatic-update mechanism that periodically
-checks for and installs new versions. By using the Software you
-consent to receiving these updates, which may add, modify, or remove
-features. Each update may be accompanied by an updated version of
-this EULA; continued use after such an update constitutes acceptance
-of the updated EULA.
+The Software checks your plan on launch and about every 30 minutes. The check sends a hashed identifier for your device and receives a signed entitlement token that unlocks paid features. The token is verified inside the Software. If a check fails, the Software falls back to Starter until a check succeeds. Started without a connection, it keeps the last answer, if that answer is less than 24 hours old, only until its next check.
 
-You may disable automatic updates in Settings → About → Updates,
-provided that you remain responsible for the security and correctness
-of any out-of-date version you continue to run.
+When a pass ends, paid features stop and the Software returns to Starter on its own. Nothing you made is deleted. Sequences above the Starter limits stay saved and are marked as drafts until you buy again. Encrypted files, vaults and locked items can still be opened with their passwords.
 
-## 4. Ownership
+We may change what each tier includes. A change never applies to a pass already bought: you keep what the pass included on the day you paid, until it ends.
 
-The Software is licensed, not sold. We retain all right, title, and
-interest in and to the Software, including all intellectual property
-rights. This EULA does not grant you any rights to our trademarks,
-service marks, or branding except as required for the lawful use of
-the Software.
+## 4. Passes, renewal and Pro Lifetime
 
-You retain all rights to the data you create with the Software
-(your sequences, configurations, and any files you process). We
-claim no ownership of your data.
+- A pass is one payment for a fixed term: 30 days or 365 days. It does not renew by itself, no card is kept on file and there is nothing to cancel. Buy again when it ends.
+- Auto-renew is not offered today. If we offer it, it will be a separate, unticked choice at checkout, with the amount and interval shown before you agree, an email before each charge and the option to cancel at any time, as the Terms of Service describe.
+- Prices are in US dollars. INR is available if you choose it at checkout. Bank conversion fees are yours.
+- Pro Lifetime is not on sale today. If it is offered, “Lifetime” means the life of the product, not your life: Pro features for as long as Seqtrix is sold and supported. If we discontinue Seqtrix, the last released version keeps working within the Starter limits: its Pro features end once we no longer answer the licence check in section 3. Within 12 months of your purchase you may email us for a refund of the Lifetime price less the Pro pass value of the months you held it; after 12 months there is no refund. A Lifetime licence is tied to your account and cannot be transferred.
+- Refunds: a full refund within 7 days of purchase if the pass has not been activated in the Software. After activation, only for a verified defect we cannot fix within 7 days of your report, or a Seqtrix-side outage of more than 48 continuous hours. The [Refund and Cancellation Policy](https://seqtrix.com/refund-policy) is the full rule.
 
-## 5. Privacy
+## 5. Updates
 
-Your use of the Software is also governed by our
-[Privacy Policy](./PRIVACY.md), which describes what data we collect,
-why, and how to exercise your rights over it.
+On launch the Software looks for a newer version and downloads it in the background. You choose when to restart. Each update bundle is signed with our update key and the Software refuses an update whose signature does not verify. By installing the Software you agree to receive updates this way.
 
-## 6. Disclaimer of warranties
+Updates may add, change or remove features, change the licence check in section 3 and ask you to accept a new version of this EULA. We try not to remove features without telling you in the in-app changelog first. You may stop using the Software at any time if you do not want an update.
 
-THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY
-OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
-WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
-NON-INFRINGEMENT, AND FREEDOM FROM DEFECTS. WE DO NOT WARRANT THAT
-THE SOFTWARE WILL BE UNINTERRUPTED, ERROR-FREE, OR FREE OF HARMFUL
-COMPONENTS. YOU USE THE SOFTWARE AT YOUR OWN RISK.
+## 6. The installer and code signing
 
-Some jurisdictions do not allow the exclusion of certain warranties,
-so some of the above exclusions may not apply to you.
+The installer you download from seqtrix.com is not signed with a commercial code-signing certificate. Windows SmartScreen may show a warning the first time you run it. What we do sign is the update bundle (section 5), with our own update key, so an installed copy only accepts updates from us. The Microsoft Store build, where available, is signed by Microsoft as part of Store publishing.
 
-## 7. Limitation of liability
+Download the Software only from seqtrix.com, our release page linked from it, or the Microsoft Store. We are not responsible for copies obtained anywhere else.
 
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL
-Seqtrix BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
-CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, REVENUES,
-DATA, OR USE, ARISING OUT OF OR RELATED TO YOUR USE OF THE SOFTWARE,
-WHETHER IN CONTRACT, TORT, OR ANY OTHER LEGAL THEORY, EVEN IF WE HAVE
-BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+## 7. Security features, encryption and your data
 
-OUR TOTAL CUMULATIVE LIABILITY ARISING OUT OF OR RELATED TO THIS EULA
-WILL NOT EXCEED THE GREATER OF (a) THE AMOUNT YOU PAID US IN THE
-TWELVE MONTHS PRECEDING THE EVENT GIVING RISE TO THE CLAIM, OR
-(b) US $50.
+Your sequences, schedules, settings and vault live on your PC. They leave it only when you turn on cloud sync, publish a share, or switch on crash reports or usage statistics, each of which is off until you choose it. The Privacy Policy has the full list.
 
-Some jurisdictions do not allow the limitation of liability for
-consequential or incidental damages, so some of the above limitations
-may not apply to you.
+- **Encryption** protects files at rest on your disk with AES-256-GCM and a key derived from a password you choose. It does not protect a file while it is open, a copy kept elsewhere, or a file synced or backed up before it was encrypted. We never receive your passwords and cannot recover an encrypted file without the password.
+- **The recovery key** (24 words) is shown once when you create it. Keeping it is your responsibility. We keep no copy and cannot recover it, your Master Mode, your vaults or your locked files without it.
+- **Secure delete** overwrites a file before deleting it. On SSDs and some other drives the hardware can keep old copies an overwrite never reaches, and copies in backups, shadow copies, cloud sync or other devices are not touched. Treat it as strong cleanup, not a guarantee of removal.
+- **Hide, Password Lock and Vault** work as the Software describes them on screen. Basic hide is not encryption. A vault is not a backup.
 
-## 8. Termination
+You are responsible for keeping backups of anything you cannot afford to lose, and for the files, folders and programs you point a security step at.
 
-This EULA is effective until terminated. We may terminate it
-immediately upon written notice if you breach any of its terms. Upon
-termination, you must cease all use of the Software and destroy or
-uninstall all copies in your possession.
+## 8. Focus Lock and the Panic key
 
-You may terminate this EULA at any time by uninstalling the Software.
+Focus Lock and the Panic key are productivity aids, not security controls, and we do not guarantee that they block anything. Website blocking edits the Windows hosts file after you approve the elevation prompt; browsers using their own DNS-over-HTTPS provider, VPNs, proxies and other devices get around it. App blocking closes the programs you listed. Firm and Hard sessions are designed to resist being ended early, but on the Microsoft Store build Windows can still uninstall Seqtrix during a Hard session and a Store update may pause the watchdog until Seqtrix opens again. The Panic key needs Seqtrix to be running and takes a few seconds to finish.
 
-Sections 4 (Ownership), 6 (Disclaimer), 7 (Liability), and 9
-(Governing law) survive termination.
+You choose what a session blocks and for how long, and you are responsible for the consequences of a session you started, including time, missed work and emergency access. Lost time, a blocked site or a session you could not end early is not a defect.
 
-## 9. Governing law
+## 9. Sharing and importing sequences
 
-This EULA is governed by the laws of India (Mumbai, Maharashtra), without regard
-to its conflict-of-laws principles. Any dispute arising out of or
-relating to this EULA will be brought exclusively in the courts of
-India (Mumbai, Maharashtra), and you consent to the personal jurisdiction of those
-courts.
+Publishing a sequence puts its title, description, your publisher name and the steps you tick on a public page at seqtrix.com, under the share-gallery terms in the Terms of Service. Step passwords never travel and your folders become placeholders, but typed text and commands you include do travel. Remove anything secret before you publish. You are responsible for what you publish.
 
-If you are a consumer in the European Union, you may also bring
-disputes before the courts of your country of residence under EU
-consumer-protection law.
+An imported sequence runs actions on your PC once you run it: it can open programs, run commands and encrypt, hide or delete files. The Software shows Run Command and Security Lock steps for review before anything is saved, and nothing runs from the review page. Import only from people you trust. We are not responsible for what a sequence written by someone else does on your PC.
 
-## 10. Changes
+## 10. What you may not do
 
-We may update this EULA from time to time. Material changes will
-trigger a re-acceptance prompt the next time you launch the Software.
-Continued use after the prompt constitutes acceptance of the updated
-EULA. The most current version is always available at
-[github.com/nimbarkparam/seqtrix-releases/blob/master/legal/EULA.md](https://github.com/nimbarkparam/seqtrix-releases/blob/main/legal/EULA.md).
+You may not, and may not let anyone else:
 
-## 11. Contact
+- reverse-engineer, decompile, disassemble or otherwise try to derive the source code of the Software, except where the law gives you that right and it cannot be excluded;
+- bypass, disable or tamper with the licence check, the entitlement token, the device identifier, the trial, the update signature check or the tier limits;
+- copy, modify, rent, lease, sell, sublicense, redistribute or make the Software available to third parties, or share a pass or account;
+- remove or hide any copyright, trademark, version or signature notice in the Software or its installer;
+- use the Software to break the law, to attack or gain unauthorised access to any system, or to harm anyone, including by sequences you write, import or share;
+- use the Software to build a product that competes with Seqtrix.
 
-Questions about this EULA: help@seqtrix.com
+Tampering with the licence check or the update signature check is a material breach. We may end your licence, suspend your account and keep the fees for the period of the breach.
 
-Seqtrix
+## 11. Ownership
+
+We and our licensors own the Software and all intellectual property in it. You own the sequences, files and other content you create with it. “Seqtrix” and the Seqtrix logo are our marks; this EULA gives you no right to use them beyond naming the Software.
+
+## 12. Beta and experimental features
+
+Features marked beta, preview or experimental are provided as they are, may be unstable, and may change or disappear without notice.
+
+## 13. No warranty beyond what the law requires
+
+The Software is provided “as is” and “as available”. To the extent the law allows, we give no warranty of any kind, express or implied, including merchantability, fitness for a particular purpose, non-infringement, or that the Software will be error-free, uninterrupted, or will block, protect, encrypt or delete anything in every case. Nothing said by us or in the Software creates a warranty beyond this EULA. Where the law gives you rights that cannot be excluded, including under the Consumer Protection Act, 2019, those rights stand.
+
+## 14. Limit of liability
+
+To the extent the law allows, we are not liable for indirect, incidental, special, consequential or punitive loss, or for lost profits, revenue, data, files you encrypted, deleted or locked, sequences that did not run or ran wrongly, Focus Lock time, or goodwill, however caused, even if we were told it could happen.
+
+Our total liability for everything arising from this EULA or the Software is limited to the amount you paid us for the Software in the 12 months before the claim. If you paid nothing, our total liability is nil. This limit does not apply where the law does not allow it, including for fraud or for liability that consumer law does not let us limit.
+
+## 15. Termination
+
+You may end this EULA at any time by uninstalling the Software. We may end it with immediate effect if you breach section 10, or on 30 days' notice by email if we discontinue the Software (section 4 says what happens to a Lifetime licence). When this EULA ends, your licence ends and you must uninstall the Software. Your local files remain yours. Sections 7, 8, 9, 11, 13, 14 and 17 survive termination.
+
+## 16. Export
+
+The Software contains encryption. You are responsible for complying with the export and sanctions laws that apply to you, and you confirm you are not barred from receiving the Software under the laws of India or of your country.
+
+## 17. Governing law and disputes
+
+This EULA is governed by the laws of India. The courts at Ahmedabad, Gujarat, India have exclusive jurisdiction, except where consumer law lets you file where you live. Before filing anything, email us at help@seqtrix.com and give us 30 days to resolve the matter in good faith.
+
+## 18. Changes to this EULA and the whole agreement
+
+When this EULA changes materially, the version number and date at the top change and the Software asks every install to accept the new version on its next launch. The version shown in the Software's acceptance screen is the version you agreed to. This EULA, the Terms of Service and the Privacy Policy are the whole agreement between you and us about the Software. If any part is unenforceable, the rest stands.
+
+## 19. Contact
+
+Param Nimbark, solo founder, Ahmedabad, India. Email [help@seqtrix.com](mailto:help@seqtrix.com) for questions about this EULA, refunds, data or security. We usually reply within 2 working days.
