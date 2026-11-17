@@ -38,23 +38,31 @@ warning; with a built-in auto-updater):
 
 That link always resolves to the newest installer published on this repo's releases.
 
+**New in 0.18.0:** buy Pro Lifetime in the app for $149 once, Pro with no end date, and
+switch to it from a Pro pass in Settings. Full notes: https://seqtrix.com/whats-new
+
 ---
 
 ## What a sequence is built from
 
-There are **9 action types**:
+The main steps:
 
 | Action | What it does |
 |---|---|
-| **Open Application** | Launches any `.exe` or URL |
+| **Open Application** | Launches any `.exe` or URL, or brings an app that is already open to the front |
 | **Close Application** | Graceful close on a running process tree |
-| **Wait** | Pause for N seconds, or until a wall-clock time |
-| **Type Text** | Types a string into the focused window |
+| **Wait** | Pause for N seconds or until a clock time, or wait until an app is running, a file or folder exists, or the PC is online |
+| **Type Text** | Types a string into the focused window, by pasting or key by key |
 | **Press Key** | Sends a key or modifier combo (Ctrl+S, Win+L, Alt+Tab) |
-| **Run Command** | Runs a CMD or PowerShell command |
+| **Run Command** | Runs a CMD or PowerShell command, in a folder you choose |
 | **System Action** | Shutdown, restart, sleep, lock, log out |
 | **Media Control** | Play/pause, next, previous, volume |
+| **Copy a folder** | Backs up a folder and its subfolders to another folder, a network folder or a USB drive found by its name; never deletes or moves anything |
+| **Show Message** | Shows a Windows notification, or a window on top with Continue and Stop the run |
 | **Security Lock** | AES-256 encrypt, hide, password-lock, or securely delete a file or folder |
+
+The OS Action step can also keep the PC awake, turn off the screen, clear the clipboard,
+or hide or show the taskbar.
 
 Focus Lock blocks distracting apps and websites for 15 minutes to 8 hours, with Soft,
 Firm or Hard strength. Soft is free; Firm, Hard and website blocking are on Advanced and
@@ -68,9 +76,12 @@ control: push-to-talk on every plan, hands-free on Advanced and Pro.
 useful automation is about ten seconds away rather than an afternoon of reading docs.
 There is also a curated library of 50+ ready-made commands for the Run Command action.
 
-**Triggers:** hotkey, schedule, an app launching, file watcher (create / modify /
-delete), system events (login, idle, return-from-idle), or the Mini Mode floating
-launcher - an always-on-top ring with 8 slots that sits over any window.
+**Triggers:** hotkey, schedule, an app launching, a hot corner, file watcher (create /
+modify / delete), system events (login, idle, return-from-idle), the PC locking,
+unlocking, waking, going on battery or being plugged in, a drive you pick being plugged
+in, or the Mini Mode floating launcher - an always-on-top ring with 8 slots that sits
+over any window. File-watch, system-event, PC and drive triggers need Advanced or Pro.
+**Run later** runs a sequence once, in a set number of minutes or at a clock time.
 
 **Honest limitation, stated up front:** sequences run **strictly linearly**. There is no
 branching to other steps, no loops and no parallel paths: a sequence runs its steps in
@@ -81,8 +92,8 @@ tool, and we would rather tell you that here than have you find out after instal
 
 ## Local and offline
 
-Sequences run on your machine. There is no cloud execution, no telemetry by default, and
-the app works with no internet connection. Optional account sign-in exists for licensing
+Sequences run on your machine. There is no cloud execution, crash reports and usage
+statistics are off until you turn them on, and the app works with no internet connection. Optional account sign-in exists for licensing
 and cross-device sync of your sequences. To check your plan, the app also sends a hashed
 device ID, plus your sign-in if you are signed in, at launch and about every 30 minutes,
 and the direct installer's built-in updater checks this repository for new versions.
@@ -100,14 +111,15 @@ and the direct installer's built-in updater checks this repository for new versi
 
 **Starter** is free forever. **Advanced** is $4.99 for 30 days or $49 for a year (₹299 /
 ₹2,990) and covers up to 50 sequences. **Pro** is $9.99 for 30 days or $99 for a year
-(₹599 / ₹5,990) with unlimited sequences.
+(₹599 / ₹5,990) with unlimited sequences. **Pro Lifetime** is $149 once (₹8,990): Pro on
+all your devices with no end date. Lifetime means the life of the product, not your life.
 
 Every fresh install gets a **15-day Advanced trial** - no credit card, no signup.
 
-**One-time payment for the period you choose.** Nothing auto-renews and there is nothing
-to cancel: when a pass ends, it keeps running for 3 days of grace, then returns to
-Starter unless you buy again; nothing is deleted. One payment covers 30 or 365 days - it
-is not a lifetime licence.
+**Passes are paid once for the period you choose.** Nothing auto-renews and there is
+nothing to cancel: when a pass ends, it keeps running for 3 days of grace, then returns
+to Starter unless you buy again; nothing is deleted. A pass covers 30 or 365 days; Pro
+Lifetime has no end date.
 
 Full breakdown: [seqtrix.com/pricing](https://seqtrix.com/pricing)
 
@@ -129,9 +141,9 @@ Each tagged release publishes:
 | `Seqtrix_<version>_x64-setup.nsis.zip.sig` | Signature, verified by the running app |
 | `latest.json` | Updater manifest pointing at this repo's release assets |
 
-Releases are cut by CI on every version tag: a Windows runner builds and signs the
-bundle, generates `latest.json`, and publishes here. Nobody uploads release files by
-hand.
+Releases are cut by CI on every version tag: a Windows runner builds the bundle, signs
+it with the updater key (the installer itself is not code-signed), generates
+`latest.json`, and publishes here. Nobody uploads release files by hand.
 
 The [`legal/`](./legal/) folder holds copies of the EULA, privacy policy and terms. The
 current versions, and the refund policy, are on seqtrix.com: https://seqtrix.com/eula,
@@ -150,5 +162,5 @@ https://seqtrix.com/refund-policy.
 - Use-case guides: **https://seqtrix.com/use-cases**
 - Templates: **https://seqtrix.com/templates**
 
-Built by [Param Nimbark](https://seqtrix.com/about). Independent, and not affiliated with
-Microsoft - that name appears here only to describe the platform Seqtrix runs on.
+Built by the Seqtrix team. Independent, and not affiliated with Microsoft - that name
+appears here only to describe the platform Seqtrix runs on.
