@@ -1,6 +1,6 @@
 # End User License Agreement
 
-Version 2.0. Last updated 2026-11-05 (5 November 2026); Seqtrix 0.16.0 shows this version as dated 2026-10-13. Applies to the Seqtrix desktop application for Microsoft Windows.
+Version 2.1. Last updated 2026-11-17 (17 November 2026). Applies to the Seqtrix desktop application for Microsoft Windows.
 
 ## 1. Who we are and what you are agreeing to
 
@@ -31,7 +31,7 @@ We may change what each tier includes. A change never applies to a pass already 
 - A pass is one payment for a fixed term: 30 days or 365 days. It does not renew by itself, no card is kept on file and there is nothing to cancel. Buy again when it ends.
 - Auto-renew is not offered today. If we offer it, it will be a separate, unticked choice at checkout, with the amount and interval shown before you agree, an email before each charge and the option to cancel at any time, as the Terms of Service describe.
 - Prices are in US dollars. INR is available if you choose it at checkout. Bank conversion fees are yours.
-- Pro Lifetime is not on sale today. If it is offered, “Lifetime” means the life of the product, not your life: Pro features for as long as Seqtrix is sold and supported. If we discontinue Seqtrix, the last released version keeps working within the Starter limits: its Pro features end once we no longer answer the licence check in section 3. Within 12 months of your purchase you may email us for a refund of the Lifetime price less the Pro pass value of the months you held it; after 12 months there is no refund. A Lifetime licence is tied to your account and cannot be transferred.
+- “Lifetime” means the life of the product, not your life: Pro features for as long as Seqtrix is sold and supported. If we discontinue Seqtrix, the last released version keeps working within the Starter limits: its Pro features end once we no longer answer the licence check in section 3. Within 12 months of your purchase you may email us for a refund of the Lifetime price less the Pro pass value of the months you held it; after 12 months there is no refund. A Lifetime licence is tied to your account and cannot be transferred.
 - Refunds: a full refund within 7 days of purchase if the pass has not been activated in the Software. After activation, only for a verified defect we cannot fix within 7 days of your report, or a Seqtrix-side outage of more than 48 continuous hours. The [Refund and Cancellation Policy](https://seqtrix.com/refund-policy) is the full rule.
 
 ## 5. Updates
